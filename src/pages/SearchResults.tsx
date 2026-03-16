@@ -1,13 +1,14 @@
 import { useSearchParams } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import ProductCard from "@/components/ProductCard";
-import { searchProducts } from "@/lib/mock-data";
+import { searchProducts, getRecommendedProducts } from "@/lib/mock-data";
 import { Search } from "lucide-react";
 
 const SearchResults = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get("q") || "";
   const results = searchProducts(query);
+  const recommended = results.length === 0 ? getRecommendedProducts() : [];
 
   return (
     <div className="min-h-screen bg-background">
@@ -31,9 +32,20 @@ const SearchResults = () => {
             ))}
           </div>
         ) : (
-          <div className="surface-card p-16 text-center">
-            <p className="text-muted-foreground">No products found for "{query}"</p>
-            <p className="text-xs text-muted-foreground mt-1">Try searching for something else</p>
+          <div className="space-y-10">
+            <div className="surface-card p-16 text-center">
+              <p className="text-muted-foreground">No exact matches found for "{query}"</p>
+              <p className="text-xs text-muted-foreground mt-1">Try a different keyword like "phone", "laptop", or "shoes"</p>
+            </div>
+
+            <div>
+              <h2 className="font-display text-lg text-foreground mb-4">Popular Products You Might Like</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {recommended.map((product, i) => (
+                  <ProductCard key={product.id} product={product} index={i} />
+                ))}
+              </div>
+            </div>
           </div>
         )}
       </div>
