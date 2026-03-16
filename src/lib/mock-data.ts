@@ -40,9 +40,9 @@ export const trendingProducts: Product[] = [
     category: "Electronics",
     image: "",
     listings: [
-      { store: "amazon", price: 24990, originalPrice: 34990, rating: 4.5, reviews: 12340, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 25499, originalPrice: 34990, rating: 4.4, reviews: 8920, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 27990, originalPrice: 34990, rating: 4.3, reviews: 3210, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 24990, originalPrice: 34990, rating: 4.5, reviews: 12340, delivery: "1 day", link: "https://www.amazon.in/Sony-WH-1000XM5-Cancelling-Headphones/dp/B0BX2L8PBS", inStock: true },
+      { store: "flipkart", price: 25499, originalPrice: 34990, rating: 4.4, reviews: 8920, delivery: "2 days", link: "https://www.flipkart.com/sony-wh-1000xm5-headphones/p/itm123456", inStock: true },
+      { store: "croma", price: 27990, originalPrice: 34990, rating: 4.3, reviews: 3210, delivery: "3 days", link: "https://www.croma.com/sony-wh-1000xm5/p/123456", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 29990, store: "amazon" },
