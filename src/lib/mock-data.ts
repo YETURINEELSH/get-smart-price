@@ -40,9 +40,9 @@ export const trendingProducts: Product[] = [
     category: "Electronics",
     image: "",
     listings: [
-      { store: "amazon", price: 24990, originalPrice: 34990, rating: 4.5, reviews: 12340, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 25499, originalPrice: 34990, rating: 4.4, reviews: 8920, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 27990, originalPrice: 34990, rating: 4.3, reviews: 3210, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 24990, originalPrice: 34990, rating: 4.5, reviews: 12340, delivery: "1 day", link: "https://www.amazon.in/Sony-WH-1000XM5-Cancelling-Headphones/dp/B0BX2L8PBS", inStock: true },
+      { store: "flipkart", price: 25499, originalPrice: 34990, rating: 4.4, reviews: 8920, delivery: "2 days", link: "https://www.flipkart.com/sony-wh-1000xm5-headphones/p/itm123456", inStock: true },
+      { store: "croma", price: 27990, originalPrice: 34990, rating: 4.3, reviews: 3210, delivery: "3 days", link: "https://www.croma.com/sony-wh-1000xm5/p/123456", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 29990, store: "amazon" },
@@ -59,10 +59,10 @@ export const trendingProducts: Product[] = [
     category: "Smartphones",
     image: "",
     listings: [
-      { store: "amazon", price: 62999, originalPrice: 79900, rating: 4.6, reviews: 45200, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 61999, originalPrice: 79900, rating: 4.5, reviews: 38100, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 65999, originalPrice: 79900, rating: 4.4, reviews: 12800, delivery: "3 days", link: "#", inStock: true },
-      { store: "ajio", price: 64999, originalPrice: 79900, rating: 4.3, reviews: 2100, delivery: "4 days", link: "#", inStock: false },
+      { store: "amazon", price: 62999, originalPrice: 79900, rating: 4.6, reviews: 45200, delivery: "1 day", link: "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY", inStock: true },
+      { store: "flipkart", price: 61999, originalPrice: 79900, rating: 4.5, reviews: 38100, delivery: "2 days", link: "https://www.flipkart.com/apple-iphone-15-128gb/p/itm789012", inStock: true },
+      { store: "croma", price: 65999, originalPrice: 79900, rating: 4.4, reviews: 12800, delivery: "3 days", link: "https://www.croma.com/apple-iphone-15/p/789012", inStock: true },
+      { store: "ajio", price: 64999, originalPrice: 79900, rating: 4.3, reviews: 2100, delivery: "4 days", link: "https://www.ajio.com/apple-iphone-15/p/456789", inStock: false },
     ],
     priceHistory: [
       { date: "2025-10", price: 71999, store: "flipkart" },
@@ -79,9 +79,9 @@ export const trendingProducts: Product[] = [
     category: "Smartphones",
     image: "",
     listings: [
-      { store: "amazon", price: 109999, originalPrice: 134999, rating: 4.7, reviews: 23400, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 108999, originalPrice: 134999, rating: 4.6, reviews: 19800, delivery: "2 days", link: "#", inStock: true },
-      { store: "meesho", price: 112999, originalPrice: 134999, rating: 4.2, reviews: 3200, delivery: "5 days", link: "#", inStock: true },
+      { store: "amazon", price: 109999, originalPrice: 134999, rating: 4.7, reviews: 23400, delivery: "1 day", link: "https://www.amazon.in/Samsung-Galaxy-S24-Ultra-256GB/dp/B0CS5XYZAB", inStock: true },
+      { store: "flipkart", price: 108999, originalPrice: 134999, rating: 4.6, reviews: 19800, delivery: "2 days", link: "https://www.flipkart.com/samsung-galaxy-s24-ultra/p/itm345678", inStock: true },
+      { store: "meesho", price: 112999, originalPrice: 134999, rating: 4.2, reviews: 3200, delivery: "5 days", link: "https://www.meesho.com/samsung-galaxy-s24-ultra/p/567890", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 124999, store: "flipkart" },
@@ -98,10 +98,10 @@ export const trendingProducts: Product[] = [
     category: "Footwear",
     image: "",
     listings: [
-      { store: "myntra", price: 8995, originalPrice: 13995, rating: 4.3, reviews: 5600, delivery: "3 days", link: "#", inStock: true },
-      { store: "ajio", price: 9495, originalPrice: 13995, rating: 4.2, reviews: 3400, delivery: "4 days", link: "#", inStock: true },
-      { store: "amazon", price: 10495, originalPrice: 13995, rating: 4.4, reviews: 8900, delivery: "2 days", link: "#", inStock: true },
-      { store: "flipkart", price: 9795, originalPrice: 13995, rating: 4.1, reviews: 4200, delivery: "3 days", link: "#", inStock: true },
+      { store: "myntra", price: 8995, originalPrice: 13995, rating: 4.3, reviews: 5600, delivery: "3 days", link: "https://www.myntra.com/nike-air-max-270/p/123456", inStock: true },
+      { store: "ajio", price: 9495, originalPrice: 13995, rating: 4.2, reviews: 3400, delivery: "4 days", link: "https://www.ajio.com/nike-air-max-270/p/234567", inStock: true },
+      { store: "amazon", price: 10495, originalPrice: 13995, rating: 4.4, reviews: 8900, delivery: "2 days", link: "https://www.amazon.in/Nike-Air-Max-270/dp/B0ABCDEF12", inStock: true },
+      { store: "flipkart", price: 9795, originalPrice: 13995, rating: 4.1, reviews: 4200, delivery: "3 days", link: "https://www.flipkart.com/nike-air-max-270/p/itm901234", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 12995, store: "myntra" },
@@ -118,9 +118,9 @@ export const trendingProducts: Product[] = [
     category: "Laptops",
     image: "",
     listings: [
-      { store: "amazon", price: 99990, originalPrice: 114900, rating: 4.8, reviews: 15600, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 101990, originalPrice: 114900, rating: 4.7, reviews: 12300, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 104990, originalPrice: 114900, rating: 4.6, reviews: 4500, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 99990, originalPrice: 114900, rating: 4.8, reviews: 15600, delivery: "1 day", link: "https://www.amazon.in/Apple-MacBook-Air-M3-256GB/dp/B0CX23ABCD", inStock: true },
+      { store: "flipkart", price: 101990, originalPrice: 114900, rating: 4.7, reviews: 12300, delivery: "2 days", link: "https://www.flipkart.com/apple-macbook-air-m3/p/itm567890", inStock: true },
+      { store: "croma", price: 104990, originalPrice: 114900, rating: 4.6, reviews: 4500, delivery: "3 days", link: "https://www.croma.com/apple-macbook-air-m3/p/345678", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 112990, store: "amazon" },
@@ -137,10 +137,10 @@ export const trendingProducts: Product[] = [
     category: "Electronics",
     image: "",
     listings: [
-      { store: "amazon", price: 999, originalPrice: 3990, rating: 4.1, reviews: 89400, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 949, originalPrice: 3990, rating: 4.0, reviews: 67200, delivery: "2 days", link: "#", inStock: true },
-      { store: "meesho", price: 899, originalPrice: 3990, rating: 3.8, reviews: 12100, delivery: "5 days", link: "#", inStock: true },
-      { store: "croma", price: 1199, originalPrice: 3990, rating: 4.2, reviews: 5600, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 999, originalPrice: 3990, rating: 4.1, reviews: 89400, delivery: "1 day", link: "https://www.amazon.in/boAt-Rockerz-450-Bluetooth/dp/B0BOAT450X", inStock: true },
+      { store: "flipkart", price: 949, originalPrice: 3990, rating: 4.0, reviews: 67200, delivery: "2 days", link: "https://www.flipkart.com/boat-rockerz-450/p/itm112233", inStock: true },
+      { store: "meesho", price: 899, originalPrice: 3990, rating: 3.8, reviews: 12100, delivery: "5 days", link: "https://www.meesho.com/boat-rockerz-450/p/445566", inStock: true },
+      { store: "croma", price: 1199, originalPrice: 3990, rating: 4.2, reviews: 5600, delivery: "3 days", link: "https://www.croma.com/boat-rockerz-450/p/778899", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 1499, store: "meesho" },
