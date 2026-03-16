@@ -59,10 +59,10 @@ export const trendingProducts: Product[] = [
     category: "Smartphones",
     image: "",
     listings: [
-      { store: "amazon", price: 62999, originalPrice: 79900, rating: 4.6, reviews: 45200, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 61999, originalPrice: 79900, rating: 4.5, reviews: 38100, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 65999, originalPrice: 79900, rating: 4.4, reviews: 12800, delivery: "3 days", link: "#", inStock: true },
-      { store: "ajio", price: 64999, originalPrice: 79900, rating: 4.3, reviews: 2100, delivery: "4 days", link: "#", inStock: false },
+      { store: "amazon", price: 62999, originalPrice: 79900, rating: 4.6, reviews: 45200, delivery: "1 day", link: "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY", inStock: true },
+      { store: "flipkart", price: 61999, originalPrice: 79900, rating: 4.5, reviews: 38100, delivery: "2 days", link: "https://www.flipkart.com/apple-iphone-15-128gb/p/itm789012", inStock: true },
+      { store: "croma", price: 65999, originalPrice: 79900, rating: 4.4, reviews: 12800, delivery: "3 days", link: "https://www.croma.com/apple-iphone-15/p/789012", inStock: true },
+      { store: "ajio", price: 64999, originalPrice: 79900, rating: 4.3, reviews: 2100, delivery: "4 days", link: "https://www.ajio.com/apple-iphone-15/p/456789", inStock: false },
     ],
     priceHistory: [
       { date: "2025-10", price: 71999, store: "flipkart" },
