@@ -98,10 +98,10 @@ export const trendingProducts: Product[] = [
     category: "Footwear",
     image: "",
     listings: [
-      { store: "myntra", price: 8995, originalPrice: 13995, rating: 4.3, reviews: 5600, delivery: "3 days", link: "#", inStock: true },
-      { store: "ajio", price: 9495, originalPrice: 13995, rating: 4.2, reviews: 3400, delivery: "4 days", link: "#", inStock: true },
-      { store: "amazon", price: 10495, originalPrice: 13995, rating: 4.4, reviews: 8900, delivery: "2 days", link: "#", inStock: true },
-      { store: "flipkart", price: 9795, originalPrice: 13995, rating: 4.1, reviews: 4200, delivery: "3 days", link: "#", inStock: true },
+      { store: "myntra", price: 8995, originalPrice: 13995, rating: 4.3, reviews: 5600, delivery: "3 days", link: "https://www.myntra.com/nike-air-max-270/p/123456", inStock: true },
+      { store: "ajio", price: 9495, originalPrice: 13995, rating: 4.2, reviews: 3400, delivery: "4 days", link: "https://www.ajio.com/nike-air-max-270/p/234567", inStock: true },
+      { store: "amazon", price: 10495, originalPrice: 13995, rating: 4.4, reviews: 8900, delivery: "2 days", link: "https://www.amazon.in/Nike-Air-Max-270/dp/B0ABCDEF12", inStock: true },
+      { store: "flipkart", price: 9795, originalPrice: 13995, rating: 4.1, reviews: 4200, delivery: "3 days", link: "https://www.flipkart.com/nike-air-max-270/p/itm901234", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 12995, store: "myntra" },
