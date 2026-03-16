@@ -118,9 +118,9 @@ export const trendingProducts: Product[] = [
     category: "Laptops",
     image: "",
     listings: [
-      { store: "amazon", price: 99990, originalPrice: 114900, rating: 4.8, reviews: 15600, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 101990, originalPrice: 114900, rating: 4.7, reviews: 12300, delivery: "2 days", link: "#", inStock: true },
-      { store: "croma", price: 104990, originalPrice: 114900, rating: 4.6, reviews: 4500, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 99990, originalPrice: 114900, rating: 4.8, reviews: 15600, delivery: "1 day", link: "https://www.amazon.in/Apple-MacBook-Air-M3-256GB/dp/B0CX23ABCD", inStock: true },
+      { store: "flipkart", price: 101990, originalPrice: 114900, rating: 4.7, reviews: 12300, delivery: "2 days", link: "https://www.flipkart.com/apple-macbook-air-m3/p/itm567890", inStock: true },
+      { store: "croma", price: 104990, originalPrice: 114900, rating: 4.6, reviews: 4500, delivery: "3 days", link: "https://www.croma.com/apple-macbook-air-m3/p/345678", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 112990, store: "amazon" },
