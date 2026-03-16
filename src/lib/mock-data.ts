@@ -79,9 +79,9 @@ export const trendingProducts: Product[] = [
     category: "Smartphones",
     image: "",
     listings: [
-      { store: "amazon", price: 109999, originalPrice: 134999, rating: 4.7, reviews: 23400, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 108999, originalPrice: 134999, rating: 4.6, reviews: 19800, delivery: "2 days", link: "#", inStock: true },
-      { store: "meesho", price: 112999, originalPrice: 134999, rating: 4.2, reviews: 3200, delivery: "5 days", link: "#", inStock: true },
+      { store: "amazon", price: 109999, originalPrice: 134999, rating: 4.7, reviews: 23400, delivery: "1 day", link: "https://www.amazon.in/Samsung-Galaxy-S24-Ultra-256GB/dp/B0CS5XYZAB", inStock: true },
+      { store: "flipkart", price: 108999, originalPrice: 134999, rating: 4.6, reviews: 19800, delivery: "2 days", link: "https://www.flipkart.com/samsung-galaxy-s24-ultra/p/itm345678", inStock: true },
+      { store: "meesho", price: 112999, originalPrice: 134999, rating: 4.2, reviews: 3200, delivery: "5 days", link: "https://www.meesho.com/samsung-galaxy-s24-ultra/p/567890", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 124999, store: "flipkart" },
