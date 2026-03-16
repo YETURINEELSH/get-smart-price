@@ -401,12 +401,40 @@ const productKeywords: Record<string, string[]> = {
 };
 export const searchProducts = (query: string): Product[] => {
   if (!query.trim()) return trendingProducts;
-  const q = query.toLowerCase();
-  return trendingProducts.filter(
-    (p) =>
-      p.name.toLowerCase().includes(q) ||
-      p.category.toLowerCase().includes(q)
-  );
+  const q = query.toLowerCase().trim();
+  const queryWords = q.split(/\s+/);
+
+  // Score each product by relevance
+  const scored = trendingProducts.map((p) => {
+    let score = 0;
+    const name = p.name.toLowerCase();
+    const category = p.category.toLowerCase();
+    const keywords = productKeywords[p.id] || [];
+
+    // Exact substring match in name (highest priority)
+    if (name.includes(q)) score += 10;
+    // Category match
+    if (category.includes(q)) score += 8;
+    // Individual word matches
+    for (const word of queryWords) {
+      if (name.includes(word)) score += 3;
+      if (category.includes(word)) score += 2;
+      if (keywords.some((k) => k.includes(word) || word.includes(k))) score += 2;
+    }
+    return { product: p, score };
+  });
+
+  const results = scored
+    .filter((s) => s.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((s) => s.product);
+
+  return results;
+};
+
+// Get fallback/recommended products when search yields no results
+export const getRecommendedProducts = (excludeQuery?: string): Product[] => {
+  return trendingProducts.slice(0, 6);
 };
 
 export const getProduct = (id: string): Product | undefined => {
