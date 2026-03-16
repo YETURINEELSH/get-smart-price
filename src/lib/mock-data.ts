@@ -137,10 +137,10 @@ export const trendingProducts: Product[] = [
     category: "Electronics",
     image: "",
     listings: [
-      { store: "amazon", price: 999, originalPrice: 3990, rating: 4.1, reviews: 89400, delivery: "1 day", link: "#", inStock: true },
-      { store: "flipkart", price: 949, originalPrice: 3990, rating: 4.0, reviews: 67200, delivery: "2 days", link: "#", inStock: true },
-      { store: "meesho", price: 899, originalPrice: 3990, rating: 3.8, reviews: 12100, delivery: "5 days", link: "#", inStock: true },
-      { store: "croma", price: 1199, originalPrice: 3990, rating: 4.2, reviews: 5600, delivery: "3 days", link: "#", inStock: true },
+      { store: "amazon", price: 999, originalPrice: 3990, rating: 4.1, reviews: 89400, delivery: "1 day", link: "https://www.amazon.in/boAt-Rockerz-450-Bluetooth/dp/B0BOAT450X", inStock: true },
+      { store: "flipkart", price: 949, originalPrice: 3990, rating: 4.0, reviews: 67200, delivery: "2 days", link: "https://www.flipkart.com/boat-rockerz-450/p/itm112233", inStock: true },
+      { store: "meesho", price: 899, originalPrice: 3990, rating: 3.8, reviews: 12100, delivery: "5 days", link: "https://www.meesho.com/boat-rockerz-450/p/445566", inStock: true },
+      { store: "croma", price: 1199, originalPrice: 3990, rating: 4.2, reviews: 5600, delivery: "3 days", link: "https://www.croma.com/boat-rockerz-450/p/778899", inStock: true },
     ],
     priceHistory: [
       { date: "2025-10", price: 1499, store: "meesho" },
